@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISPENBUK</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo.png" alt="Logo SISPENBUK">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+ 
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Cari Literatur</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Kategori</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Mobile Button-->
+                <form action="" class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- Desktop Button-->
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+   <main>
+       <section class="section-details-header"></section>
+       <section class="section-details-content">
+           <div class="container">
+               <div class="row">
+                   <div class="col p-0">
+                       <nav>
+                           <ol class="breadcrumb">
+                               <li class="breadcrumb-item">
+                                   Kategori
+                               </li>
+                               <li class="breadcrumb-item active">
+                                    Pengembangan Diri
+                                </li>
+                           </ol>
+                       </nav>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-lg-8 pl-lg-0">
+                       <div class="card card-details">
+                           <h1>You Do You</h1>
+                           <p>Fellexandro Ruby</p>
+                           <div class="gallery">
+                            <div class="xzoom-container">
+                                <img src="frontend/images/details.jpg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/details.jpg">
+                            </div>
+                            <div class="xzoom-thumbs">
+                                <a href="frontend/images/details.jpg">
+                                    <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" height="85.45" xpreview="frontend/images/details.jpg">
+                                </a>
+                                <a href="frontend/images/details.jpg">
+                                    <img src="frontend/images/details2.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details2.jpg">
+                                </a>
+                                <a href="frontend/images/details.jpg">
+                                    <img src="frontend/images/details3.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details3.jpg">
+                                </a>
+                                <a href="frontend/images/details.jpg">
+                                    <img src="frontend/images/details4.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details4.jpg">
+                                </a>
+                                <a href="frontend/images/details.jpg">
+                                    <img src="frontend/images/details5.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details5.jpg">
+                                </a>
+                            </div>
+                           </div>
+                           <h2>Tentang Buku</h2>
+                           <p>Ada 5 bab utama dalam You Do You yang dimulai oleh Bertemu dengan Diri Sendiri, dilanjutkan dengan Bertemu dengan Ikigai, Designing Your Life, Building Your New Net Worth, kemudian ditutup dengan Principles.</p>
+                            <p>Lima bab ini dicacah ke dalam bagian-bagian kecil dengan porsi yang pas agar pembaca tetap bisa menjaga alur dan tempo bacanya.</p>
+                            <div class="features row">
+                                <div class="col-md-4">
+                                    <img src="frontend/images/ic_ticket.png" 
+                                    alt="Event"
+                                    class="features-image">
+                                    <div class="description">
+                                        <h3>Status Buku</h3>
+                                        <p>Tersedia</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 border border-top-0 border-bottom-0 border-right-0">
+                                    <div class="description">
+                                        <img src="frontend/images/ic_bahasa.png" 
+                                        alt="Language"
+                                        class="features-image">
+                                        <div class="description">
+                                            <h3>Bahasa</h3>
+                                            <p>Bahasa Indonesia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 border-left">
+                                    <div class="description">
+                                        <img src="frontend/images/ic_bank.png" 
+                                        alt="Foods"
+                                        class="features-image">
+                                        <div class="description">
+                                            <h3>Harga</h3>
+                                            <p>Rp. 78.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="col lg-4">
+                       <div class="card card-details card-right">
+                           <h2>Antrian Pembaca</h2>
+                           <div class="members my-2">
+                            <img src="/frontend/images/member-1.png" class="member-image mr-1">
+                            <img src="/frontend/images/member-2.png" class="member-image mr-1">
+                            <img src="/frontend/images/member-3.png" class="member-image mr-1">
+                            <img src="/frontend/images/member-4.png" class="member-image mr-1">
+                            <img src="/frontend/images/member-5.png" class="member-image mr-1">
+                            <img src="/frontend/images/member-6.png" class="member-image mr-1">
+                        </div>
+                           <hr>
+                           <h2>Informasi Buku</h2>
+                           <table class="trip-informations">
+                               <tr>
+                                   <th width="50%">Harga Buku</th>
+                                   <td width="50%" class="text-right">
+                                    Rp. 78.000
+                                   </td>
+                               </tr>
+                               <tr>
+                                <th width="50%">Stok Buku</th>
+                                <td width="50%" class="text-right">
+                                    25
+                                </td>
+                            </tr>
+                            <tr>
+                                <th width="50%">Jenis Buku</th>
+                                <td width="50%" class="text-right">
+                                    Peng. Diri
+                                </td>
+                            </tr>
+                            <tr>
+                                <th width="50%">Banyak Halaman</th>
+                                <td width="50%" class="text-right">
+                                   243 Halaman
+                                </td>
+                            </tr>
+                           </table>
+                       </div>
+                       <div class="join-container">
+                           <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2">
+                               Tambah ke Keranjang
+                           </a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+   </main>
+
+   <footer class="section-footer mt-5 mb-4 border-top">
+    <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <h5>FITUR</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Cari Buku</a></li>
+                            <li><a href="#">Kategori</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5>AKUN</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Profil</a></li>
+                            <li><a href="#">Keranjang</a></li>
+                            <li><a href="#">Privasi Pengguna</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5>SISPENBUK</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><u>Masuk</u> atau </a><u>Daftar</u></li>
+                            <li><a href="#">Pusat Bantuan</a></li>
+                            <li><a href="#">Tentang Kami</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5>KONTAK KAMI</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Jl. A.H. Nasution No. 105</a></li>
+                            <li><a href="#">Bandung, Indonesia</a></li>
+                            <li><a href="#">0853-5327-4715</a></li>
+                            <li><a href="#">support@sispenbuk.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row border-top justify-content-center align-items-center pt-4">
+            <div class="col-auto text-gray-500 font-weight-light">
+                2021 Copyright SISPENBUK • All rights reserved • Made in Bandung
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERPOL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="frontend/images/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp;  Beli Buku Tanpa Ribet
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="section-success d-flex align-item-center">
+            <div class="col text-center">
+                <br>
+                <img src="frontend/images/success.png" width="200px" alt="">
+                <br>
+                <br>
+                <h1>Pembayaran Berhasil</h1>
+                <p>
+                    Buku yang kamu pesan akan segera
+                    <br>
+                    sampai di depan pintu rumahmu.
+                </p>
+                <a href="index.html" class="btn btn-home-page mt-3 px-5">
+                    Kembali ke Home
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FITUR</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Cari Buku</a></li>
+                                <li><a href="#">Kategori</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>AKUN</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Profil</a></li>
+                                <li><a href="#">Keranjang</a></li>
+                                <li><a href="#">Privasi Pengguna</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>SISPENBUK</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><u>Masuk</u> atau </a><u>Daftar</u></li>
+                                <li><a href="#">Pusat Bantuan</a></li>
+                                <li><a href="#">Tentang Kami</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>KONTAK KAMI</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Jl. A.H. Nasution No. 105</a></li>
+                                <li><a href="#">Bandung, Indonesia</a></li>
+                                <li><a href="#">0853-5327-4715</a></li>
+                                <li><a href="#">support@sispenbuk.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2021 Copyright SISPENBUK • All rights reserved • Made in Bandung
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/ic_doe.png" />'
+                }
+            })
+        });
+    </script>
+</body>
+</html>
